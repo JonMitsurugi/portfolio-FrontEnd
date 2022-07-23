@@ -1,2 +1,3 @@
 # portfolio-FrontEnd
-hola como va
+
+Este es el repositorio de la parte frontend de mi portfolio.
