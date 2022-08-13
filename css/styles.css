@@ -1,3 +1,39 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  h1 {
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+  .subtitulo {
+    font-size: 1.7rem;
+    font-weight: lighter;
+  }
+  h1, h2, .subtitulo {
+    color: white;
+  }
+
 h2 {
-    color: teal;
+    
+}
+header {
+  background: linear-gradient(180deg,red, maroon);
+}
+
+.nombre{
+  height: 1000px;
+  align-items: center;
+}
+.acerca-de-mi{
+  height: 1000px;
+  align-items: center;
+  background: linear-gradient(to bottom, lightblue 10%, mediumblue);
+}
+.cosas {
+  color:white;
+  width: 50%;
 }
