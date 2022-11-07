@@ -123,6 +123,16 @@ hr {
 small {
   display: block;
 }
+/* label */
+.cargar-archivo {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.cargar-archivo:hover {
+  color:#212529;
+  border: 1px solid #212529;
+  background-color: #fff;
+}
 
 /* Pildoras */
 .badge {
